@@ -30,7 +30,7 @@ def loadText():
 
 
     index_name = "langchain-demo"
-    pc = Pinecone(api_key='58e1668f-5c14-4af5-8b08-ac18efd1f81c')
+    pc = Pinecone(api_key='')
 
     print(pc.list_indexes())
 
